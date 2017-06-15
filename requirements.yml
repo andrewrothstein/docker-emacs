@@ -1,2 +1,6 @@
 ---
-- src: andrewrothstein.emacs
+- src: andrewrothstein.pkg-upgrade
+- src: andrewrothstein.emacs-daemon-supervisord
+  version: v1.0.4
+- src: andrewrothstein.sshd-supervisord
+  version: v1.0.7

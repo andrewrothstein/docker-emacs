@@ -1,5 +1,7 @@
 ---
 - hosts: all
   roles:
-    - andrewrothstein.emacs
+    - role: andrewrothstein.pkg-upgrade
+    - role: andrewrothstein.emacs-daemon-supervisord
+    - role: andrewrothstein.sshd-supervisord
   
